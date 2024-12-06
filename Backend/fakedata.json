@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Tech Solutions Inc.",
+        "fields": ["Software Development", "IT Consulting", "Cybersecurity"],
+        "avgSalary": 85000,
+        "type": "Private",
+        "founded": "2005-03-25T00:00:00.000Z",
+        "headQuarters": "San Francisco, CA",
+        "companySize": 200
+    },
+    {
+        "name": "Green Energy Corp.",
+        "fields": ["Renewable Energy", "Sustainability"],
+        "avgSalary": 92000,
+        "type": "Public",
+        "founded": "2010-07-14T00:00:00.000Z",
+        "headQuarters": "Austin, TX",
+        "companySize": 150
+    },
+    {
+        "name": "MediHealth LLC",
+        "fields": ["Healthcare", "Medical Devices"],
+        "avgSalary": 78000,
+        "type": "Private",
+        "founded": "2018-01-10T00:00:00.000Z",
+        "headQuarters": "Boston, MA",
+        "companySize": 120
+    },
+    {
+        "name": "EduTech Innovators",
+        "fields": ["Education Technology", "Online Learning"],
+        "avgSalary": 71000,
+        "type": "Startup",
+        "founded": "2020-09-01T00:00:00.000Z",
+        "headQuarters": "New York, NY",
+        "companySize": 50
+    },
+    {
+        "name": "Finance Pro Ltd.",
+        "fields": ["Financial Services", "Investment Banking"],
+        "avgSalary": 105000,
+        "type": "Public",
+        "founded": "2000-05-30T00:00:00.000Z",
+        "headQuarters": "Chicago, IL",
+        "companySize": 300
+    }
+]

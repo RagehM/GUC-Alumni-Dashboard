@@ -1,0 +1,55 @@
+.heatmap-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.map-wrapper {
+  width: 50%;
+}
+
+.heatmap-legend {
+  width: 600px;
+  max-height: fit-content;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heatmap-legend h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.heatmap-legend .legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-auto-rows: minmax(50px, auto);
+  gap: 10px;
+  font-size: 14px;
+}
+
+.heatmap-legend .legend-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
